@@ -1,0 +1,9 @@
+prefix=/usr/local
+libdir=/usr/local/lib
+
+Name: libv4lconvert
+Description: v4l format conversion library
+Version: 
+Libs: -L${libdir} -lv4lconvert
+Libs.private: -lrt -lm
+Cflags: -I${prefix}/include
